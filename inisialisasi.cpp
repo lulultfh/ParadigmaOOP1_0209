@@ -7,4 +7,5 @@ private:
     const int id;  //variabel1 
     string nama;    //variabel2
     float nilai;    //variabel3
+public:
 };

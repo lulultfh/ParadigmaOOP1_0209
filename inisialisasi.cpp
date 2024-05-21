@@ -8,4 +8,7 @@ private:
     string nama;    //variabel2
     float nilai;    //variabel3
 public:
+    mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {
+       //member definition 
+    }
 };

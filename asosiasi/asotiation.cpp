@@ -38,7 +38,7 @@ void pasien::tambahDokter(dokter* pDokter) {
 }
 void pasien::cetakDokter?() {
     cout << "Daftar Dokter yang menangani pasien \"" << this->nama << "\":\n";
-    for (auto& a : daftar-dokter) {//auto digunakan dalam perulangan for untuk secara otomatis menentukan tipe data dari elemen yang diiteraas
+    for (auto& a : daftar_dokter) {//auto digunakan dalam perulangan for untuk secara otomatis menentukan tipe data dari elemen yang diiteraas
     }
     cout << endl;
 }
